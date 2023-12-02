@@ -1,0 +1,109 @@
+*{ padding: 0;
+   margin: 0;
+  }
+header {  
+  display: flex;
+  border: 2px solid black;
+  width: 96%;
+  height: 35px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#divh{
+  display: flex;
+  margin-left: 15px;
+}
+#nav1,#lit {
+  display: flex;
+  margin-left: 50%;
+  letter-spacing: 3px;
+  list-style: none;
+  /* font-size: 20px; */
+}
+#lit{
+  margin: 10px;
+ }
+.rd {
+      color: red;
+      padding: 5px;
+      text-decoration: none;
+   }
+   /* fin de notre entete */
+   /* début de notre section */
+   aside {
+    border: 4px solid black;
+    width: 410px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 60px;
+   }
+   article{
+    border: 4px solid black;
+    width:600px;
+    height: 320px;
+    margin-left: 45%;
+    margin-top: -26%;
+    padding: 15px;
+}
+tr{ 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{ text-decoration: underline;}
+footer {
+  border: 4px solid black;
+  display: flex;
+  margin-top: 70px;
+  letter-spacing: 15%;
+  justify-content: space-between;  
+  padding: 20px;
+}
+.a1,.a2,.a3 {
+  list-style: none; 
+}
+.asid,.a3{
+  text-decoration: none;
+}
+.di1,.a1{
+  margin-left: 15px;
+}
+h3{
+  text-decoration: underline crimson;
+}
+#maison ,.dir{
+background-color: aquamarine;
+padding: 15px;
+border-radius: 5px;
+margin-left: 500px;
+margin-right: 20%;
+margin-top: 15px;
+}
+#imai{
+margin-top: 15px;
+border-radius: 5px;
+border: 1px solid grey;
+}
+.app{
+  font-size: 14px;
+  color:rgb(9, 9, 137);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+form { 
+  display: inline-flex;
+  flex-direction: column;
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid gray;     
+  width: 600px;
+  height: 400px;
+  margin-left: 300px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+#fr {
+       background-color: rgb(12, 12, 97);
+       height: 25px;
+}
